@@ -1,0 +1,166 @@
+/*reglas generales*/
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*reglas generales*/
+
+/*header*/
+header   {
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+}
+
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+#logo img    {
+  width: 57%;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+/*header*/
+
+/*banner*/
+.banner           {
+  min-height: 45vw;
+  text-align: center;
+  background-image: url('images/banner.jpeg');
+  background-size: cover;
+}
+.banner-container   {
+  color: #FFF;
+  padding-top: 130px;
+}
+.banner-container h1   {
+  font-size: 80px;
+  margin: 0;
+}
+.banner-container p    {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px
+}
+.banner-container a    {
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #fff9;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+  background-color: rgba(2, 2, 2, 0.78);
+}
+.banner-container a:hover    {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+}
+/*banner*/
+
+/*feature*/
+.container-section   {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.container-section-inside   {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header h2  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+/* box */
+.box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+  text-align: center
+}
+.box img  {
+  margin-bottom: 12px;
+  width: 80px;
+}
+.box h5   {
+  font-size: 20px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.box .proyect {
+  width: 100%
+}
+
+.proyect-detail{
+  width: 50%
+}
+
+footer   {
+  background: #222;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  height: 41px;
+  margin: 0 auto 10px;
+}
+
+.center{
+  text-align: center;
+}
