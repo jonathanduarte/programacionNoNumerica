@@ -164,3 +164,28 @@ footer img   {
 .center{
   text-align: center;
 }
+
+a:link {
+text-decoration:none;
+}
+
+.proyectLink:active, .proyectLink:hover, .proyectLink:visited{
+  color:black
+}
+
+.map{
+  width:500px;
+  height:400px;
+}
+
+.color{
+  color: black;
+}
+
+li{
+  font-size: x-large;
+}
+
+.padding-left{
+  padding-left: 100px;
+}
